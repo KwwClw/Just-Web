@@ -48,12 +48,12 @@ body.dark-mode {
 nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px;
     color: #333;
 }
 .logo {
-    margin-top: 10px;
+    margin-top: 9px;
 }
 .logo a {
     margin-top: px;

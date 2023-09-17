@@ -7,9 +7,12 @@
 nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px;
     color: #333;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
 }
 .logo-anime a {
     text-decoration: none;
@@ -21,10 +24,17 @@ nav {
     display: flex;
     list-style: none;
 }
-.menu-anime li a {
+.menu-anime li .a {
     margin-left: 60px;
     text-decoration: none;
 }
-.fa-solid {
+.search {
     margin-left: 100px;
+}
+.fa-regular {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+.comment {
+    margin-left: 10px;
 }
