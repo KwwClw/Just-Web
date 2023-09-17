@@ -4,16 +4,58 @@
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
 }
+:root {
+    --dark-color: #333;
+    --light-color: #fff;
+}
+body.light-mode {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    transition: background-color 0.3s, color 0.3s;
+
+    .logo a {
+        color: #333;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .submenu {
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .title {
+        color: #000000;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
+
+body.dark-mode {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: background-color 0.3s, color 0.3s;
+
+    .logo a {
+        color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .submenu {
+        background-color: #333;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .title {
+        color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
 nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    color: #333;
 }
 .logo a {
     text-decoration: none;
-    color: #333;
     font-weight: bold;
     font-size: 18px;
+    color: #000000;
 }
 .menu, .submenu {
     display: flex;
@@ -22,7 +64,7 @@ nav {
 .title {
     margin-top: 5px;
     margin-left: 70px;
-    color: #fff;
+    color: #000000;
 }
 .switch {
     white-space: nowrap;
@@ -57,7 +99,7 @@ nav {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #fff;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -81,7 +123,7 @@ input:checked + .slider:before {
     margin-left: 575px;
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #fff;
     min-width: 200px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -92,11 +134,11 @@ input:checked + .slider:before {
     margin-left: 15px;
     font-weight: bold;
     align-items: center;
-    background-image: linear-gradient(144deg,#071952, #088395 50%,#35A29F);
+    background-image: linear-gradient(144deg,#16d9eb, #088395 50%,#35A29F);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    color: #FFFFFF;
+    color: #fff;
     display: flex;
     font-size: 20px;
     justify-content: center;
@@ -110,7 +152,7 @@ input:checked + .slider:before {
 }
 .menu li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     /* background:  linear-gradient(45deg, #0c456b, #07a06f); */
     border-radius: 5px;
     padding: 5px 15px;
