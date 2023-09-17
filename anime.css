@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 20px;
+    color: #333;
+}
+.logo-anime a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+.menu-anime {
+    display: flex;
+    list-style: none;
+}
+.menu-anime li a {
+    margin-left: 60px;
+    text-decoration: none;
+}
+.fa-solid {
+    margin-left: 100px;
+}

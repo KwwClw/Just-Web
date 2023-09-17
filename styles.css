@@ -48,10 +48,15 @@ body.dark-mode {
 nav {
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
     padding: 20px;
     color: #333;
 }
+.logo {
+    margin-top: 10px;
+}
 .logo a {
+    margin-top: px;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -193,6 +198,7 @@ main div p {
 main img {
     width: 100%;
     border-radius: 20px;
+    margin-top: 10px;
 }
 footer {
     background-color: #333;
