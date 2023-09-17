@@ -89,7 +89,6 @@ nav {
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    -webkit-transition: .4s;
     transition: .4s;
 }
 .slider:before {
@@ -100,15 +99,15 @@ nav {
     left: 4px;
     bottom: 4px;
     background-color: #fff;
-    -webkit-transition: .4s;
     transition: .4s;
+}
+.menu li a:hover, .menu button:hover, .menu li:hover {
+    transform: scale(1.1);
 }
 input:checked + .slider {
     background-color: #2196F3;
 }
 input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
 /* Rounded sliders */
@@ -130,7 +129,7 @@ input:checked + .slider:before {
     z-index: 1;
     border-radius: 8px;
 }
-.menu li, .dropbtn {
+.menu button, .dropbtn {
     margin-left: 15px;
     font-weight: bold;
     align-items: center;
@@ -146,16 +145,21 @@ input:checked + .slider:before {
     max-width: 100%;
     min-width: 140px;
     padding: 8px 18px;
+    transition: transform .2s;
 }
 .show {
     display: block;
 }
-.menu li a {
+.menu button a {
     text-decoration: none;
     color: #fff;
     /* background:  linear-gradient(45deg, #0c456b, #07a06f); */
     border-radius: 5px;
     padding: 5px 15px;
+    transition: transform .2s;
+}
+.menu button {
+    transition: transform .2s;
 }
 .banner {
     background-color: rgb(5, 78, 78);
