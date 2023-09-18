@@ -52,12 +52,14 @@ nav {
     outline: none;
     font-size: 16px;
     font-weight: 500;
-    color: #030068;
 }
 /* เปลี่ยนสี placeholder text เป็นสีน้ำเงิน */
 .searchbox::placeholder {
     color: #ffffff;
 }
 .fa-regular {
-    background:#036b32;
+    color: #000000;
+    background:#b8c0bc;
+    border-radius: 20px;
+    padding: 25px 25px;
 }
