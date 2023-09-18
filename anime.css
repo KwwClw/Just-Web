@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #333;
     font-family: 'Prompt', sans-serif;
 }
 nav {
@@ -9,7 +10,7 @@ nav {
     justify-content: space-between;
     /* border: 1px solid red; */
     padding: 20px;
-    color: #333;
+    color: #ffffff;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 30px;
@@ -18,11 +19,14 @@ nav {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    color: #000000;
 }
 .menu-anime {
     display: flex;
     list-style: none;
+    font-size: 16px;
+}
+.menu-anime li a {
+    color: #ffffff;
 }
 .menu-anime li .a {
     margin-left: 60px;
@@ -32,9 +36,28 @@ nav {
     margin-left: 100px;
 }
 .fa-regular {
-    margin-left: 200px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 .comment {
     margin-left: 10px;
+}
+.searchbox {
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #030068;
+}
+/* เปลี่ยนสี placeholder text เป็นสีน้ำเงิน */
+.searchbox::placeholder {
+    color: #ffffff;
+}
+.fa-regular {
+    background:#036b32;
 }
