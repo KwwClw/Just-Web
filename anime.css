@@ -2,64 +2,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #333;
     font-family: 'Prompt', sans-serif;
+}
+body {
+    background-image: url(https://images3.alphacoders.com/132/1322308.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav {
     display: flex;
     justify-content: space-between;
     /* border: 1px solid red; */
-    padding: 20px;
-    color: #ffffff;
     margin-left: 80px;
     margin-right: 80px;
-    margin-top: 30px;
+    margin-top: 55px;
 }
-.logo-anime a {
-    text-decoration: none;
+nav div {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15.8px;
     font-weight: bold;
-    font-size: 18px;
 }
-.menu-anime {
+.menu {
     display: flex;
     list-style: none;
-    font-size: 16px;
 }
-.menu-anime li a {
+.text-menu {
+    text-decoration: none;
+    margin-left: 60px;
     color: #ffffff;
 }
-.menu-anime li .a {
-    margin-left: 60px;
-    text-decoration: none;
-}
-.search {
-    margin-left: 100px;
-}
-.fa-regular {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.comment {
-    margin-left: 10px;
+ul li {
+    margin-left: 5px;
 }
 .searchbox {
-    margin-left: 10px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
     border: none;
-    background: transparent;
     outline: none;
-    font-size: 16px;
-    font-weight: 500;
+    margin-left: 5px;
+    background: none;
+    color: #ffffff;
 }
-/* เปลี่ยนสี placeholder text เป็นสีน้ำเงิน */
 .searchbox::placeholder {
     color: #ffffff;
 }
+.fa-solid {
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 23px;
+}
 .fa-regular {
-    color: #000000;
-    background:#b8c0bc;
+    margin-left: 30px;
+    color: #000;
+    background: #b8c0bc;
     border-radius: 20px;
-    padding: 25px 25px;
+    padding: 23px 23px;
+}
+ul li {
+    margin-top: 20px;
 }
