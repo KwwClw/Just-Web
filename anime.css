@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Prompt:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +6,10 @@
     font-family: 'Prompt', sans-serif;
 }
 body {
-    background-image: url(https://images3.alphacoders.com/132/1322308.jpeg);
+    /* background-image: url(https://images3.alphacoders.com/132/1322308.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #333;
 }
 nav {
     display: flex;
@@ -17,11 +19,13 @@ nav {
     margin-right: 80px;
     margin-top: 55px;
 }
+nav div a {
+    color: #fff;
+    text-decoration: none;
+}
 nav div {
-    color: #ffffff;
+    margin-top: 15.3px;
     font-size: 20px;
-    margin-top: 15.8px;
-    font-weight: bold;
 }
 .menu {
     display: flex;
@@ -30,7 +34,7 @@ nav div {
 .text-menu {
     text-decoration: none;
     margin-left: 60px;
-    color: #ffffff;
+    color: #fff;
 }
 ul li {
     margin-left: 5px;
@@ -40,15 +44,16 @@ ul li {
     outline: none;
     margin-left: 5px;
     background: none;
-    color: #ffffff;
+    color: #fff;
+    margin-top: 4px;
 }
 .searchbox::placeholder {
-    color: #ffffff;
+    color: #fff;
 }
 .fa-solid {
-    color: #ffffff;
+    color: #fff;
     margin-left: 150px;
-    margin-top: 23px;
+    margin-top: 25px;
 }
 .fa-regular {
     margin-left: 30px;
@@ -58,5 +63,9 @@ ul li {
     padding: 23px 23px;
 }
 ul li {
+    margin-top: 20px;
+}
+section {
+    border: 1px solid #ff0000;
     margin-top: 20px;
 }
