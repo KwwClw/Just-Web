@@ -68,4 +68,10 @@ ul li {
 section {
     border: 1px solid #ff0000;
     margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+section {
+    margin-left: 50px;
+    margin-right: 50px;
 }

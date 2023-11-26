@@ -26,6 +26,11 @@ body.light-mode {
         color: #000000;
         transition: background-color 0.3s, color 0.3s;
     }
+    .ft {
+        background-color: #333;
+        color: #ffffff;
+        transition: background-color 0.3s, color 0.3s;
+    }
 }
 
 body.dark-mode {
@@ -43,6 +48,11 @@ body.dark-mode {
     }
     .title {
         color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .ft {
+        background-color: #f4f4f4;
+        color: #000000;
         transition: background-color 0.3s, color 0.3s;
     }
 }
@@ -68,8 +78,8 @@ nav {
     list-style: none;
 }
 .title {
-    margin-top: 5px;
-    margin-left: 70px;
+    margin-top: 6px;
+    margin-left: 80px;
     color: #000000;
 }
 .switch {
@@ -201,9 +211,9 @@ main img {
     border-radius: 20px;
     margin-top: 10px;
 }
-footer {
+.ft {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }

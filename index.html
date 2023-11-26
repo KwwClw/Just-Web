@@ -20,18 +20,17 @@
 
         <ul class="menu">
             <button><a href="index.html">Home</a></button>
-            <button><a href="anime.html">Anime</a></button>
+            <button><a href="store.html">Store</a></button>
             <button><a href="#">Blog</a></button>
             <button><a href="#">Contact</a></button>
-            <button onclick="drop()" class="dropbtn">Setting</button>
-                <ul id="submenu" class="submenu">
-                    <label class="switch">
-                        <p class="title">Dark Mode</p>
-                        <input type="checkbox" id="switchmode">
-                        <span class="slider round"></span>
-                    </label>
-                </ul>
-            </li>
+            <button id="dropbtn" class="dropbtn">Setting</button>
+            <ul id="submenu" class="submenu">
+                <label id="switch" class="switch">
+                    <p class="title"><span id="darktext">Dark Mode</span></p>
+                    <input type="checkbox" id="switchmode">
+                    <span id="slider" class="slider round"></span>
+                </label>
+            </ul>
         </ul>
     </nav>
     <!-- Nav End -->
@@ -55,6 +54,7 @@
         <div>
             <h3>Latest MV</h3>
             <img src="https://mzeeki.com/public/images/songs/59776605062023095356.jpg" alt="">
+            <!-- <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/385551787_676245867629343_5369150825526039931_n.jpg?stp=dst-jpg_s403x403&_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=9s0B033NttUAX9MBsLF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQkUEIIbHkvGlgx6swJwm6vjQ6EyZb9HEtXKaco9uZZjA&oe=657920A9" alt=""> -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas, libero non obcaecati, debitis eum ullam similique saepe maiores enim veritatis eaque reiciendis! Omnis consequatur tempore, consectetur illo perferendis odit aliquid nam, libero incidunt eaque facere velit non magni quia rerum id quas error nobis tempora quaerat odio corporis. Sint illo voluptas, autem tenetur numquam, expedita, unde ipsam recusandae dolorem vitae tempore soluta? Unde dignissimos magni alias voluptatum repellendus ex. Error, delectus minus ad officiis ullam nobis! Quibusdam, voluptatem consequuntur. Id optio eius ex atque eligendi esse maxime aperiam doloremque deserunt. Numquam molestias temporibus quaerat labore odit. Doloremque, expedita saepe.</p>
         </div>
         <div>
@@ -65,7 +65,7 @@
     <!-- Content End -->
 
     <!-- Footer Start -->
-    <footer>
+    <footer class="ft">
         <p>Copyright 2023. Made by Kwwclw</p>
     </footer>
     <!-- Footer End -->
